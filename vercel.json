@@ -1,0 +1,7 @@
+{
+  "name": "heroku-proxy",
+  "version": 2,
+  "routes": [
+    {"src": "/(.*)","dest": "https://leobin-pan.herokuapp.com/$1"}
+  ]
+}
